@@ -91,7 +91,7 @@
 #
 #      # 生成静态文件
 #      - name: Build
-#        run: npm install && yarn && yarn docs:build
+#        run: export NODE_OPTIONS=--openssl-legacy-provider && npm install && npm run docs:build
 #
 #      # 部署到 GitHub Pages
 #      - name: Deploy
@@ -148,7 +148,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with:
           # 部署到 gh-pages 分支
-          target_branch: gh-pages
+          target_branch: main
           # 部署目录为 VuePress 的默认输出目录
           build_dir: docs/.vuepress/dist
         env:
