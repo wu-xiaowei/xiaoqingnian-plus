@@ -62,7 +62,7 @@ jobs:
         env:
           ACCESS_TOKEN: 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
           TARGET_REPO: wu-xiaowei/xiaoqingnian-plus
-          TARGET_BRANCH: gh-pages
+          TARGET_BRANCH: main
           BUILD_SCRIPT: yarn && yarn docs:build
           BUILD_DIR: docs/.vuepress/dist
           #CNAME: https://www.xxx.com
