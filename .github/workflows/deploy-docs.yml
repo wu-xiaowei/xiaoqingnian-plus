@@ -191,6 +191,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: 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
           BRANCH: gh-pages
           FOLDER: .vuepress/dist  # 这里根据你的 VuePress 项目配置设置生成的静态文件路径
