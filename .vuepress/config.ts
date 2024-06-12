@@ -26,19 +26,19 @@ export default defineConfig({
       },
     ],
     // 百度统计
-    [
-      "script",
-      {},
-      `
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?2675818a983a3131404cee835018f016";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-      `,
-    ],
+    // [
+    //   "script",
+    //   {},
+    //   `
+    //     var _hmt = _hmt || [];
+    //     (function() {
+    //       var hm = document.createElement("script");
+    //       hm.src = "https://hm.baidu.com/hm.js?2675818a983a3131404cee835018f016";
+    //       var s = document.getElementsByTagName("script")[0];
+    //       s.parentNode.insertBefore(hm, s);
+    //     })();
+    //   `,
+    // ],
   ],
   permalink: "/:slug",
 
@@ -54,12 +54,12 @@ export default defineConfig({
   plugins: [
     ["@vuepress/back-to-top"],
     // Google 分析
-    [
-      "@vuepress/google-analytics",
-      {
-        ga: "GTM-WVS9HM6W", // 补充自己的谷歌分析 ID，比如 UA-00000000-0
-      },
-    ],
+    // [
+    //   "@vuepress/google-analytics",
+    //   {
+    //     ga: "GTM-WVS9HM6W", // 补充自己的谷歌分析 ID，比如 UA-00000000-0
+    //   },
+    // ],
     ["@vuepress/medium-zoom"],
     // https://github.com/lorisleiva/vuepress-plugin-seo
     [
@@ -123,7 +123,7 @@ export default defineConfig({
     lastUpdated: "最近更新",
 
     // GitHub 仓库位置
-    repo: "liyupi/codefather",
+    repo: "wu-xiaowei/xiaoqingnian-plus",
     docsBranch: "master",
 
     // 编辑链接
