@@ -193,4 +193,4 @@ jobs:
         with:
           GITHUB_TOKEN: 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
           BRANCH: gh-pages
-          FOLDER: /docs/.vuepress/dist  # 这里根据你的 VuePress 项目配置设置生成的静态文件路径
+          FOLDER: .vuepress/dist  # 这里根据你的 VuePress 项目配置设置生成的静态文件路径
