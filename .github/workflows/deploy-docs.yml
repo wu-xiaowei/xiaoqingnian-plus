@@ -186,7 +186,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm docs:build  # 这里根据你的 VuePress 项目配置执行构建命令
+        run: npm run docs:build  # 这里根据你的 VuePress 项目配置执行构建命令
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
